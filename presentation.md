@@ -140,7 +140,7 @@ There are two ways of inserting footnotes.[^1]
 
 [^1]: This is the first way.
 
-Another way of inserting footnotes is to include everything in line.^[Like this. Now everything I write in this space will appear in a footnote. Also, some Markdown interpreters will automatically number these notes. However, not all interpreters will, well, interpret this style of footnote—I'm looking at you, GitHub …] Here, I'll show you what I mean.^[This note should be number 3. :smiley:]
+Another way of inserting footnotes is to include everything in line.^[Like this. Now everything I write in this space will appear in a footnote. Also, some Markdown interpreters will automatically number these notes. However, not all interpreters will, well, interpret this style of footnote—I'm looking at you, GitHub …  ] Here, I'll show you what I mean.^[This note should be number 3. :smiley:]
 
 ### Tables
 
@@ -183,6 +183,8 @@ pandoc -s presentation.md -o presentation.latex
 
 You should definitely check out Pandoc. It's like a Swiss Army Knife for document formats!
 
+There are online services (e.g., [MD Converter](https://cloudconvert.com/md-converter) and [MConverter](https://mconverter.eu/convert/markdown/)), if you prefer not to use the command line.
+
 ## Static Web Site Generators
 
 Many static web site generators like [Eleventy](https://www.11ty.dev/) (Yay!) and [Jekyll](https://jekyllrb.com/) (Boo!) use Markdown for basic content.
@@ -205,6 +207,8 @@ I just heard about [Quarto](https://quarto.org/), "an open-source scientific and
 #### Stand-alone Editors
 
 - [VS Code](https://code.visualstudio.com/), with Markdown extensions
+  - [Markdown Preview](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced) (to see in real time how your Markdown code will be interpreted) 
+  - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) (for catching issues and suggesting best practices)
 - [Ghost](https://ghostwriter.kde.org/)
 
 #### Online Editors
