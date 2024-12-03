@@ -140,7 +140,7 @@ There are two ways of inserting footnotes.[^1]
 
 [^1]: This is the first way.
 
-Another way of inserting footnotes is to include everything in line.^[Like this. Now everything I write in this space will appear in a footnote. Also, most Markdown interpreters will automatically number these notes.] Here, I'll show you what I mean.^[This note should be number 3. :smiley:]
+Another way of inserting footnotes is to include everything in line.^[Like this. Now everything I write in this space will appear in a footnote. Also, some Markdown interpreters will automatically number these notes. However, not all interpreters will, well, interpret this style of footnote—I'm looking at you, GitHub …] Here, I'll show you what I mean.^[This note should be number 3. :smiley:]
 
 ### Tables
 
